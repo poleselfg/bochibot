@@ -1,0 +1,25 @@
+.user-avatar {
+  border-radius: 50%;
+  height: 60px;
+}
+
+.user-item-container {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.user-item-container label {
+  margin: 0 0 5px 10px;
+  font-size: 14px;
+  color: whitesmoke;
+  background: cornflowerblue;
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content;
+  max-width: 7%;
+  box-sizing: border-box;
+}

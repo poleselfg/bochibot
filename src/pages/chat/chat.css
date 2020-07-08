@@ -3,6 +3,11 @@
   height: 100vh;
 }
 
+.chatbot-chat-container-body {
+  width: 100%;
+  height: 92%;
+}
+
 .chatbot-chat-content {
   width: 85%;
   height: 100%;
@@ -19,7 +24,6 @@
   border-radius: 16px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
   box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.16);
 }
