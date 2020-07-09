@@ -1,0 +1,42 @@
+.selectorContent {
+  width: 80%;
+  height: fit-content;
+  background: #e08b97;
+  border-radius: 5px;
+  display: flex;
+  padding: 10px 5px 5px 5px;
+  box-sizing: border-box;
+}
+
+.selectorContainer {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.selectorOptions {
+  width: 90%;
+  margin: auto;
+  padding: 5px 5px 5px 7px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.selectorOptions label {
+  width: 90%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  padding: 5px;
+  justify-content: center;
+}
